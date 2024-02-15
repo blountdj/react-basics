@@ -9,7 +9,8 @@ export function General() {
         </li>
         <li>
           Every time your function runs, the hooks must execute in the exact
-          same order
+          same order - so can't put in if statements. Put them at the top level
+          of your function.
         </li>
         <li></li>
       </ul>
